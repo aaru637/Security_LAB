@@ -37,7 +37,6 @@ let convertString = (arr) => {
     for (let i in arr) result += String.fromCharCode(arr[i]);
     return result;
 }
-
 let form = document.getElementById("form");
 form.addEventListener("submit", evaluate);
 function evaluate(z) {
